@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html leng="en">
+    <head>
+        <title>bithday</title>
+        <style>
+            body{
+                margin: 0;
+                display: flex;
+                justify-content: center;
+            }
+            img{
+                width: 170px;
+                cursor: pointer;
+                transition: all 0.3s;
+            }
+            .moving{
+                transform: translateY(150%);
+            }
+        </style>
+    </head>
+    <body>
+        <img class="moving" src="Image/R (20).jfif" alt="">
+        <script>
+            const bithday = document.querySelector("img");
+            birthday.addEventListener("mouseover", ()=>{
+                birthday.classList.toggle("moving")
+            });
+        </script>
+    </body>
+</html>
